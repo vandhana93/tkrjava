@@ -54,5 +54,4 @@ public class ConditionalStatements {
         default:System.out.println("Enter valid day");
         }
 	}
-
 }
