@@ -5,6 +5,7 @@ public class StringBufferMethod {
 	public static void main(String[] args) {
         // Create a StringBuffer object
         StringBuffer sb = new StringBuffer("Hello");
+        System.out.println("Original String: " + sb);
 
         // append()
         sb.append(" World");
