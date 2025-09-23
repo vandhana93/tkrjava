@@ -5,6 +5,7 @@ public class StringBuilderMethod {
 	public static void main(String[] args) {
 		// Create a StringBuilder object
         StringBuilder sb = new StringBuilder("Hello");
+        System.out.println("Original String: " + sb);
 
         // append()
         sb.append(" World");
